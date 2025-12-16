@@ -1,0 +1,55 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Ignore local data or logs
+attendance_logs/
+alert_images/
+
+config.py 
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.pyc
+*.pyo
+
+# Face database (CRITICAL - contains biometric data)
+face_db/
+
+# Personal data
+attendance_logs/
+alert_images/
+bande/*.jpg
+bande/*.png
+
+# Lock files
+uv.lock
+*.lock
+Pipfile.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Config with credentials
+config.py
+.env
